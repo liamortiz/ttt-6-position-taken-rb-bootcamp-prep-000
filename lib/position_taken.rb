@@ -1,4 +1,6 @@
 # code your #position_taken? method here!
 def position_taken?(board, index)
-  board.empty? ? false : board[index].strip != ""
+  board[index].strip != ""
+  board[index] ? 
+  board.empty? ? false : 
 end
